@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    background-color: #1A3129;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+}
+
+a {
+    margin-right: 1vw;
+}
+
+.contact-button {
+    margin-left: 1vw;
+    background-color: #CBEA7B;
+    border-radius: 8px;
+    padding: 14px 24px;
+    margin: 1rem;
+}
+
+.menu-button {
+    display: none;
+
+}
+
+.logo {
+    margin: 1rem;
+}
+
+@media screen and (max-width:700px) {
+    .nav-tags {
+        display: none;
+    }
+    .menu-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    
+}
+

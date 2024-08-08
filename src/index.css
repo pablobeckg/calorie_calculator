@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Urbanist';
+    src: url(./assets/fonts/Urbanist-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Urbanist';
+    
+}
+#root {
+    width: 100vw;
+    background-color: #F6FBE9;
+    overflow: hidden;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}

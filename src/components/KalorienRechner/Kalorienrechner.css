@@ -1,0 +1,77 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.title-calories {
+    text-align: center;
+    padding-bottom: 5%;
+    padding: 0 25%;
+}
+
+.title-calories h1 {
+    font-size: 3rem;
+    margin-bottom: 4%;
+
+}
+
+.input-container {
+    display: flex;
+    width: 90%;
+    padding: 0 10%;
+}
+
+.input-container div {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 5%;
+}
+
+input {
+   width: 95%;
+   border: none;
+   margin: 2% 0;
+   height: 2rem;
+}
+select {
+    width: 95%;
+   border: none;
+   margin: 2% 0;
+   height: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.calculate-button {
+    padding: 18px 41px;
+    border: none;
+    width: 412px;
+    background-color: #CBEA7B;
+    border-radius: 8px;
+}
+
+table {
+    margin: 2% 0;
+    width: 80%;
+    border-radius: 1px;
+}
+
+th {
+    background-color: white;
+}
+tr {
+    background-color: white;
+}
+
+input {
+    padding-left: 1rem;
+}
