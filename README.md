@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Calorie Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Calorie Calculator**, a simple and effective web application that helps users calculate their daily caloric needs based on various personal metrics. This tool is designed for anyone looking to manage their diet and nutritional intake.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+Calorie Calculator Pablo is a user-friendly tool for estimating the number of calories you need each day to maintain, lose, or gain weight. By inputting your age, gender, weight, height, and activity level, you can quickly get an accurate estimate of your daily caloric needs.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Visit the live site: [Calorie Calculator](https://caloriecalculatorpablo.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Caloric Needs Estimation**: Calculate your daily caloric needs based on your personal metrics.
+- **BMI Calculation**: Get your Body Mass Index (BMI) as part of the results.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **User-Friendly Interface**: Simple and intuitive design for easy use.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies
+
+- **HTML5 & CSS3**: For structuring and styling the web pages.
+- **JavaScript / TypeScript**: For implementing the calculator logic and interactivity.
+- **React**: A JavaScript library for building user interfaces.
+- **Netlify**: For deployment and hosting of the web application.
+
+## Installation
+
+If you want to run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/caloriecalculatorpablo.git
+   cd caloriecalculatorpablo
