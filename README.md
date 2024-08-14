@@ -1,5 +1,7 @@
 # Calorie Calculator
 
+<img width="1088" alt="Bildschirmfoto 2024-08-14 um 09 12 14" src="https://github.com/user-attachments/assets/c4e66863-253f-4b1e-8657-cf477f1a3af7">
+
 Welcome to **Calorie Calculator**, a simple and effective web application that helps users calculate their daily caloric needs based on various personal metrics. This tool is designed for anyone looking to manage their diet and nutritional intake.
 
 ## Table of Contents
